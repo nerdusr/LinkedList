@@ -24,7 +24,7 @@ make test```
 
 ## Example
 
-```bash
+```c
 List *list = list_create();
 
 list_push_back(list, data);
