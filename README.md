@@ -14,7 +14,8 @@ Features
 
 Build
 
-make
+```bash
+make```
 
 Test
 
