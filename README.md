@@ -1,48 +1,42 @@
-# Linked List in C
+Linked List in C
 
 A generic singly linked list implementation written in C.
 
-## Features
+Features
 
 - Push front / back
 - Insert / remove by index
 - Search
 - Iterator
 - Reverse
-- Generic data with `void *`
+- Generic data with "void *"
 - Ownership-aware memory management
 
-## Build
+Build
 
-```bash
-make```
+make
 
-## Test
+Test
 
-```bash
-make test```
+make test
 
-## Example
+Example
 
-```c
 List *list = list_create();
 
 list_push_back(list, data);
 list_push_front(list, data);
 
-list_destroy(list);```
+list_destroy(list);
 
-## Memory Management
+Memory Management
 
-```bash
-The list can optionally take ownership of stored data through a user-provided destructor.```
+The list can optionally take ownership of stored data through a user-provided destructor.
 
-## Project Structure
+Project Structure
 
-```bash
 include/
 src/
 tests/
 examples/
 Makefile
-```
